@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "saludos",
+         "patterns": ["hola", "como estas", "ola", "que hubo", "buen dia"],
+         "responses": ["Hola, gracias por visitarnos", "¡Hola! ¿en que te puedo ayudar?", "Buen día, escribe una pregunta para ayudarte"],
+         "context_set": ""
+        },
+        {"tag": "despedida",
+         "patterns": ["adios", "nos vemos", "chao"],
+         "responses": ["¡Chao!, gracias por visitarnos", "Que tengas un buen día", "¡Nos vemos pronto!"]
+        },
+        {"tag": "gracias",
+         "patterns": ["gracias", "muchas gracias", "esto fue de ayuda"],
+         "responses": ["Cuando lo necesites", "Es un placer ayudar"]
+        },
+        {"tag": "horario",
+         "patterns": ["a que horas abren", "cual es su horario", "desde que horas esta abierto" ],
+         "responses": ["Nosotros abrimos de 8am a 6pm cada día", "Estamos abierto a las 8am a 6pm cada día"]
+        },
+        {"tag": "pagos",
+         "patterns": ["se puede pagar con tarjeta?", "uds aceptan mastercard", "aceptan solo efectivo?" ],
+         "responses": ["Puedes pagar en efectivo y aceptamos todas las tarjetas", "Aceptamos todas las tarjetas y también puedes pagar en efectivo."]
+        },
+        {"tag": "abiertos_hoy",
+         "patterns": ["esta abiertos hoy?", "abren hoy?", "cual es su horario hoy"],
+         "responses": ["Nosotros abrimos todos los días de 8am a 6pm", "Nuestro horario es de 8am a 6pm cada día"]
+        }
+   ]
+}
